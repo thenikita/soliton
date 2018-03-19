@@ -1,6 +1,9 @@
 #include <iostream>
+#include "Soliton.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    Soliton *soliton = new Soliton(200, 1.5);
+
     return 0;
 }
